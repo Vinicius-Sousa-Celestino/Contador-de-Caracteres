@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>Contador de Caracteres</h1>
+        </div>
+        <div class="form">
+            <p>Digite ou cole seu texto aqui</p>
+            <form name="form_main">
+                <textarea name="texto" id="texto" cols="30" rows="10" oninput="contarTexto()"></textarea><br>
+                <div class="resultado">
+                    <div class="caracteres">
+                        Caracteres: <span id="caracteres"></span>
+                    </div>
+                    <div class="palavras">
+                        Palavras: <span id="palavras"></span>
+                    </div>
+                    <div class="linhas">
+                        Linhas: <span id="linhas"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
